@@ -1,0 +1,149 @@
+header {
+    background: #e5e5e5;
+    font-family: "Roboto", sans-serif;
+    #topHeading {
+        border-bottom: 0.1px solid $dark-blue;
+        padding: 8px 0;
+        .headText {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 30px;
+            color: $dark-blue;
+        }
+        .vizaContactInfoHead {
+            height: 32px;
+            .vizaIcon {
+                cursor: pointer;
+                height: 100%;
+                border-left: 1px solid $dark-blue;
+            }
+            .webSiteLinkIcons {
+                border-left: 1px solid $dark-blue;
+                a {
+                    align-self: center;
+                    i {
+                        font-size: 18px;
+                        color: $dark-blue;
+                        &:hover {
+                            color: $purple !important;
+                            transition-duration: 0.8s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #mainNav {
+        border-bottom: 0.1px solid $dark-blue;
+        padding: 15px 0;
+        .logo {
+            padding-left: 0;
+        }
+        .navLinks {
+            ul {
+                list-style: none;
+                li {
+                    a {
+                        text-decoration: none;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: $dark-blue;
+                        &:hover {
+                            transition-duration: 0.8s;
+                            color: $purple;
+                        }
+                    }
+                }
+            }
+        }
+        .navContact {
+            .phoneNum {
+                font-family: "Exo", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 32px;
+                color: $dark-blue;
+            }
+            .contactAppLinks {
+                ul {
+                    margin: auto;
+                    padding: 0 !important;
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-around;
+                    li {
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .iconsBastketLinke {
+                border-left: 1px solid $dark-blue;
+                ul {
+                    margin: auto;
+                    padding: 0 !important;
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-around;
+                    li {
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #navSearchDropdown {
+        border-bottom: 0.1px solid $dark-blue;
+        .dropdownLinks {
+            ul {
+                padding-left: 0;
+                list-style: none;
+                li {
+                    a {
+                        text-decoration: none;
+                        color: $dark-blue;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        cursor: pointer;
+                        line-height: 19px;
+
+                        .dropdownLink-title {
+                            &:hover {
+                                color: $purple;
+                            }
+                        }
+                    }
+                    .dropdown-toggle::after {
+                        display: none !important;
+                    }
+                }
+            }
+        }
+        .inptt {
+            position: relative;
+            input {
+                width: 100%;
+                padding: 2px 0 2px 25px;
+                background: #ffffff;
+                border: 0.1px solid #103742;
+                box-sizing: border-box;
+                border-radius: 15px;
+                outline: none;
+            }
+            .iconnn {
+                position: absolute;
+                top: 15%;
+                left: 9%;
+                font-size: 14px;
+            }
+        }
+    }
+}

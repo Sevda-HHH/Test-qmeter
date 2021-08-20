@@ -1,0 +1,805 @@
+@charset "UTF-8";
+header {
+  background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+header #topHeading {
+  border-bottom: 0.1px solid #103742;
+  padding: 8px 0;
+}
+header #topHeading .headText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  color: #103742;
+}
+header #topHeading .vizaContactInfoHead {
+  height: 32px;
+}
+header #topHeading .vizaContactInfoHead .vizaIcon {
+  cursor: pointer;
+  height: 100%;
+  border-left: 1px solid #103742;
+}
+header #topHeading .vizaContactInfoHead .webSiteLinkIcons {
+  border-left: 1px solid #103742;
+}
+header #topHeading .vizaContactInfoHead .webSiteLinkIcons a {
+  align-self: center;
+}
+header #topHeading .vizaContactInfoHead .webSiteLinkIcons a i {
+  font-size: 18px;
+  color: #103742;
+}
+header #topHeading .vizaContactInfoHead .webSiteLinkIcons a i:hover {
+  color: #962689 !important;
+  transition-duration: 0.8s;
+}
+header #mainNav {
+  border-bottom: 0.1px solid #103742;
+  padding: 15px 0;
+}
+header #mainNav .logo {
+  padding-left: 0;
+}
+header #mainNav .navLinks ul {
+  list-style: none;
+}
+header #mainNav .navLinks ul li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #103742;
+}
+header #mainNav .navLinks ul li a:hover {
+  transition-duration: 0.8s;
+  color: #962689;
+}
+header #mainNav .navContact .phoneNum {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #103742;
+}
+header #mainNav .navContact .contactAppLinks ul {
+  margin: auto;
+  padding: 0 !important;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header #mainNav .navContact .contactAppLinks ul li a {
+  text-decoration: none;
+}
+header #mainNav .navContact .iconsBastketLinke {
+  border-left: 1px solid #103742;
+}
+header #mainNav .navContact .iconsBastketLinke ul {
+  margin: auto;
+  padding: 0 !important;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header #mainNav .navContact .iconsBastketLinke ul li a {
+  text-decoration: none;
+}
+header #navSearchDropdown {
+  border-bottom: 0.1px solid #103742;
+}
+header #navSearchDropdown .dropdownLinks ul {
+  padding-left: 0;
+  list-style: none;
+}
+header #navSearchDropdown .dropdownLinks ul li a {
+  text-decoration: none;
+  color: #103742;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 19px;
+}
+header #navSearchDropdown .dropdownLinks ul li a .dropdownLink-title:hover {
+  color: #962689;
+}
+header #navSearchDropdown .dropdownLinks ul li .dropdown-toggle::after {
+  display: none !important;
+}
+header #navSearchDropdown .inptt {
+  position: relative;
+}
+header #navSearchDropdown .inptt input {
+  width: 100%;
+  padding: 2px 0 2px 25px;
+  background: #ffffff;
+  border: 0.1px solid #103742;
+  box-sizing: border-box;
+  border-radius: 15px;
+  outline: none;
+}
+header #navSearchDropdown .inptt .iconnn {
+  position: absolute;
+  top: 15%;
+  left: 9%;
+  font-size: 14px;
+}
+
+#mainDetails {
+  background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+#mainDetails .head,
+#mainDetails .des {
+  font-style: normal;
+  color: #103742;
+}
+#mainDetails .head {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+#mainDetails .des {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+#mainDetails .navPage ul {
+  padding-left: 0;
+}
+#mainDetails .navPage ul li {
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a9a9a9;
+}
+#mainDetails .navPage ul li.active {
+  color: #103742;
+  font-weight: bold;
+}
+#mainDetails .otkritki .heading .rate {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #103742;
+}
+#mainDetails .otkritki .heading .rateStarIcons .active {
+  color: #ffc107;
+}
+#mainDetails .otkritki .heading .discount {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  width: 97px;
+  text-align: center;
+  background: #e9061a;
+  border-radius: 50px;
+  height: 24px;
+  color: #ffffff;
+}
+#mainDetails .otkritki .heading .price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 22px;
+  color: #103742;
+}
+#mainDetails .otkritki .heading .discountPrice {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #a9a9a9;
+}
+#mainDetails .otkritki .heading .advertisement {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #103742;
+}
+#mainDetails .otkritki .heading .selectOtkritka a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #962689;
+}
+#mainDetails .otkritki .mainContent {
+  padding: 5px;
+  background: #ffffff;
+  border: 0.5px solid #e2e2e2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+#mainDetails .otkritki .mainContent .giftsCarousel {
+  position: relative;
+}
+#mainDetails .otkritki .mainContent .giftsCarousel .prevIcon,
+#mainDetails .otkritki .mainContent .giftsCarousel .nextIcon {
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+}
+#mainDetails .otkritki .mainContent .giftsCarousel .prevIcon {
+  right: 102%;
+}
+#mainDetails .otkritki .mainContent .giftsCarousel .nextIcon {
+  left: 102%;
+}
+#mainDetails .otkritki .mainContent .giftsCarousel .items {
+  width: 100%;
+  overflow: hidden;
+}
+#mainDetails .otkritki .mainContent .giftsCarousel .items .item {
+  cursor: pointer;
+  border: 0.5px solid #e2e2e2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+  margin: 10px 5px;
+  padding: 10px;
+}
+#mainDetails .otkritki .mainContent .giftsCarousel .items .item .hiverDetails {
+  width: 100px;
+  height: 120px;
+  top: 0%;
+  left: 0;
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+}
+#mainDetails .otkritki .mainContent .giftsCarousel .items .item .hiverDetails img {
+  align-self: center;
+  width: 30%;
+  height: 25%;
+}
+#mainDetails .otkritki .mainContent .giftsCarousel .items .item:hover .hiverDetails {
+  display: flex;
+}
+#mainDetails .otkritki .mainContent .checkAddText {
+  cursor: pointer;
+  padding: 0 5px;
+}
+#mainDetails .otkritki .mainContent .checkAddText .form-check-input:checked[type=checkbox] {
+  background-color: #962689 !important;
+  border: 1px solid #962689 !important;
+}
+#mainDetails .otkritki .mainContent .checkAddText .addTextForGift {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #103742;
+}
+#mainDetails .otkritki .mainContent .commentsForOrder {
+  margin-top: 20px;
+}
+#mainDetails .otkritki .mainContent .commentsForOrder .head .title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #103742;
+}
+#mainDetails .otkritki .mainContent .commentsForOrder .head .watchTheRes {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 10px;
+  text-decoration-line: underline;
+  color: #962689;
+}
+#mainDetails .otkritki .mainContent .commentsForOrder .main textarea {
+  outline: none !important;
+  width: 97%;
+  height: 170px;
+}
+#mainDetails .otkritki .mainContent .commentsForOrder .main .item {
+  cursor: pointer;
+  position: relative;
+  border: 0.5px solid #e2e2e2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+  margin: 4px 0px;
+  padding: 10px;
+}
+#mainDetails .otkritki .mainContent .commentsForOrder .main .item .notes {
+  position: absolute;
+  top: 45%;
+  width: 40px;
+  line-height: 10px;
+  left: 30%;
+  font-size: 6px;
+  color: #103742;
+  text-align: center;
+}
+#mainDetails .otkritki .mainContent .commentsForOrder .main .item img {
+  width: 130px;
+  height: 170px;
+}
+#mainDetails .otkritki .deeTheDetails {
+  position: absolute;
+  width: 421.95px;
+  height: 528.49px;
+  top: 30%;
+  left: 46%;
+  background-color: white;
+  border: 0.2px solid #103742;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+#mainDetails .otkritki .deeTheDetails .largeImg .notes {
+  position: absolute;
+  top: 50%;
+  width: 171px;
+  line-height: 25px;
+  left: 30%;
+  font-size: 27px;
+  color: #103742;
+  text-align: center;
+}
+#mainDetails .otkritki .deeTheDetails i {
+  cursor: pointer;
+}
+#mainDetails .otkritki .actions .textLine {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #103742;
+}
+#mainDetails .otkritki .actions .textLine a {
+  text-decoration: none;
+  color: #962689;
+}
+#mainDetails .otkritki .actions .chooseSize .cardss .seectCard {
+  cursor: pointer;
+  background: #ffffff;
+  align-self: center;
+  border: 1.5px solid #a9a9a9;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 170px;
+  height: 107px;
+}
+#mainDetails .otkritki .actions .chooseSize .cardss .seectCard.active {
+  border: 3px solid #962689;
+}
+#mainDetails .otkritki .actions .chooseSize .cardss .seectCard .price {
+  font-style: normal;
+  font-weight: 500;
+  align-self: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: #103742;
+}
+#mainDetails .otkritki .actions .chooseSize .cardss .seectCard .des {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #103742;
+}
+#mainDetails .otkritki .submitButtons .fastOder button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 42px;
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  margin: 35px 0 5px 0;
+  background: #962689;
+  border-radius: 5px;
+}
+#mainDetails .otkritki .submitButtons .fastOder button:hover {
+  color: #962689;
+  font-weight: bold;
+  cursor: pointer;
+  background: #ffffff;
+}
+#mainDetails .otkritki .submitButtons .addToTheBasket button {
+  width: 100%;
+  font-style: normal;
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 42px;
+  color: #103742;
+  background: #ffffff;
+  border: 0.2px solid #103742;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#mainDetails .otkritki .submitButtons .addToTheBasket button:hover {
+  color: #962689;
+  font-weight: bold;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+#tabMenu {
+  background: #e5e5e5;
+  padding-top: 80px;
+  font-family: "Roboto", sans-serif;
+}
+#tabMenu .tab {
+  overflow: hidden;
+  background: #ffffff;
+  border: 0.2px solid #103742;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#tabMenu .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+#tabMenu .tab button:hover {
+  color: #962689;
+}
+#tabMenu .tab button.active {
+  color: #962689;
+}
+#tabMenu .tabcontent {
+  display: none;
+}
+#tabMenu .title {
+  font-style: normal;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #103742;
+}
+#tabMenu #Описание {
+  padding-block-end: 80px;
+}
+#tabMenu #Описание .sostav ul li {
+  margin: 5px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #103742;
+}
+#tabMenu #Совет {
+  padding-bottom: 70px;
+  margin-top: 48px;
+}
+#tabMenu #Совет .des {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #103742;
+}
+#tabMenu #Отзыв {
+  position: relative;
+}
+#tabMenu #Отзыв .leaveAFeedback {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 30px 0 80px 0;
+  color: #962689;
+}
+#tabMenu #Отзыв .nextBtn,
+#tabMenu #Отзыв .prevBtn {
+  position: absolute;
+  cursor: pointer;
+}
+#tabMenu #Отзыв .nextBtn {
+  top: 18.5%;
+  left: 100.5%;
+}
+#tabMenu #Отзыв .prevBtn {
+  top: 27%;
+  left: 100.5%;
+}
+#tabMenu #Отзыв .feedBackSlide {
+  width: 100%;
+  height: 278px;
+  padding: 46px 30px 30px 64px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+#tabMenu #Отзыв .feedBackSlide .feedBackCard {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 90%;
+  height: 200px;
+}
+#tabMenu #Отзыв .feedBackSlide .feedBackCard .text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  align-self: center;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0 10px;
+  color: #103742;
+}
+#tabMenu #Отзыв .feedBackSlide .feedBackCard .author {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  align-self: center;
+  text-align: center;
+  color: #103742;
+}
+#tabMenu #Отзыв .feedBackSlide .feedBackCard .quote {
+  position: absolute;
+  bottom: 91%;
+  left: 5%;
+}
+#tabMenu #Отзыв .feedBackSlide .feedBackCard .quote img {
+  width: 13%;
+}
+
+#support .head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 35px;
+  line-height: 28px;
+  color: #103742;
+}
+#support .giftCards {
+  position: relative;
+  margin-top: 25px;
+}
+#support .giftCards .nextBtn,
+#support .giftCards .prevBtn {
+  position: absolute;
+  cursor: pointer;
+}
+#support .giftCards .nextBtn {
+  top: 0.5%;
+  left: 100.5%;
+}
+#support .giftCards .prevBtn {
+  top: 19%;
+  left: 100.5%;
+}
+#support .giftCards .giftCard {
+  width: 200px;
+  height: 245px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 0.5px solid #e2e2e2;
+  position: relative;
+}
+#support .giftCards .giftCard:hover .hoverDetails {
+  display: flex;
+  cursor: pointer;
+}
+#support .giftCards .giftCard img {
+  width: 100%;
+}
+#support .giftCards .giftCard .hoverDetails {
+  display: none;
+  position: absolute;
+  top: 0%;
+  width: 200px;
+  height: 245px;
+  left: 6%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  text-align: center;
+}
+#support .giftCards .giftCard .hoverDetails .top .head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+#support .giftCards .giftCard .hoverDetails .top .des {
+  padding: 0 33px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+#support .giftCards .giftCard .hoverDetails .priceButton .price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+#support .giftCards .giftCard .hoverDetails .priceButton .addButton button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 10px;
+  background: #962689;
+  border-radius: 2px;
+  border: 1px transparent solid;
+  padding: 0 27px 3px 27px;
+  color: #ffffff;
+}
+#support .showMore {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 16px;
+  text-align: center;
+  color: #962689;
+  margin: 15px 0 30px 0;
+}
+
+#orderDetails {
+  background: #e5e5e5;
+}
+#orderDetails .head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 22px;
+  color: #103742;
+}
+#orderDetails .orderAndPay .orderCards {
+  margin-top: 38px;
+  padding-bottom: 30px;
+}
+#orderDetails .orderAndPay .orderCards .orderCard .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 22px;
+  color: #103742;
+}
+#orderDetails .orderAndPay .orderCards .orderCard .des {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+}
+#orderDetails .orderChoices {
+  background: #ffffff;
+  padding-bottom: 30px;
+}
+#orderDetails .orderChoices ul li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  text-align: justify;
+  color: #103742;
+}
+#orderDetails .orderChoices ul li span {
+  margin-left: 17px;
+}
+#orderDetails .orderChoices ul li i {
+  font-size: 14px;
+  color: #962689;
+}
+#orderDetails .paymentChoices {
+  padding-bottom: 100px;
+}
+#orderDetails .paymentChoices .des {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+  margin-top: 7px;
+  color: #103742;
+}
+#orderDetails .paymentChoices .choices {
+  padding-top: 41px;
+  padding-bottom: 80pxs;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+}
+footer #main {
+  padding-bottom: 20px;
+  padding-top: 40px;
+  border-bottom: 0.1px solid #a9a9a9;
+}
+footer #main .logo {
+  text-align: right;
+}
+footer #main .head {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #103742;
+}
+footer #main .vizaLogo {
+  align-self: flex-end;
+  margin-top: 40px;
+  padding: 0;
+}
+footer #main .contact {
+  align-self: flex-end;
+  text-align: right;
+}
+footer #main .contact .num {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px 0;
+  margin: 10px 16px;
+  border-bottom: 0.1px solid #a9a9a9;
+  line-height: 24px;
+  color: #103742;
+}
+footer #main .contact .webLinks {
+  text-align: right;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+footer #main .contact .webLinks img {
+  width: 40px;
+  height: 40px;
+}
+footer #main .c {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: #103742;
+}
+footer #main ul li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 10px;
+  color: #103742;
+}
+footer #footerEnd {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 9px 0;
+  color: #103742;
+}/*# sourceMappingURL=style.css.map */

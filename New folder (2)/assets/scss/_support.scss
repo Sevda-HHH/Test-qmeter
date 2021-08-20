@@ -1,0 +1,106 @@
+#support {
+    .head {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        margin-top: 35px;
+        line-height: 28px;
+        color: $dark-blue;
+    }
+    .giftCards {
+        position: relative;
+        margin-top: 25px;
+        .nextBtn,
+        .prevBtn {
+            position: absolute;
+            cursor: pointer;
+        }
+        .nextBtn {
+            top: 0.5%;
+            left: 100.5%;
+        }
+        .prevBtn {
+            top: 19%;
+            left: 100.5%;
+        }
+        .giftCard {
+            width: 200px;
+            height: 245px;
+            background: #ffffff;
+            border-radius: 4px;
+            border: 0.5px solid #e2e2e2;
+            position: relative;
+            &:hover {
+                .hoverDetails {
+                    display: flex;
+                    cursor: pointer;
+                }
+            }
+            img {
+                width: 100%;
+            }
+            .hoverDetails {
+                display: none;
+                position: absolute;
+                top: 0%;
+                width: 200px;
+                height: 245px;
+                left: 6%;
+                background: rgba(0, 0, 0, 0.4);
+                border-radius: 4px;
+                text-align: center;
+                .top {
+                    .head {
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #ffffff;
+                    }
+                    .des {
+                        padding: 0 33px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 16px;
+                        text-align: center;
+                        color: #ffffff;
+                    }
+                }
+                .priceButton {
+                    .price {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #ffffff;
+                    }
+                    .addButton {
+                        button {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 30px;
+                            margin-top: 10px;
+                            background: $purple;
+                            border-radius: 2px;
+                            border: 1px transparent solid;
+                            padding: 0 27px 3px 27px;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .showMore {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+        line-height: 16px;
+        text-align: center;
+        color: #962689;
+        margin: 15px 0 30px 0;
+    }
+}

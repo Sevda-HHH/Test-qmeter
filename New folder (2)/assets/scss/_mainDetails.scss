@@ -1,0 +1,341 @@
+#mainDetails {
+    background: #e5e5e5;
+    font-family: "Roboto", sans-serif;
+    .head,
+    .des {
+        font-style: normal;
+        color: $dark-blue;
+    }
+    .head {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .des {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .navPage {
+        ul {
+            padding-left: 0;
+            li {
+                font-style: normal;
+                font-weight: 500;
+                padding-left: 5px;
+                font-size: 14px;
+                line-height: 16px;
+                color: $grey;
+                &.active {
+                    color: $dark-blue;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .productSlider {
+    }
+    .otkritki {
+        .heading {
+            .rate {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 22px;
+                color: $dark-blue;
+            }
+            .rateStarIcons {
+                .active {
+                    color: #ffc107;
+                }
+            }
+            .discount {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 22px;
+                width: 97px;
+                text-align: center;
+                background: #e9061a;
+                border-radius: 50px;
+                height: 24px;
+                color: #ffffff;
+            }
+            .price {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 22px;
+                color: $dark-blue;
+            }
+            .discountPrice {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+                text-decoration-line: line-through;
+                color: $grey;
+            }
+            .advertisement {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+                color: $dark-blue;
+            }
+            .selectOtkritka {
+                a {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: $purple;
+                }
+            }
+        }
+        .mainContent {
+            padding: 5px;
+            background: #ffffff;
+            border: 0.5px solid #e2e2e2;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding: 10px 30px;
+
+            .giftsCarousel {
+                position: relative;
+                .prevIcon,
+                .nextIcon {
+                    position: absolute;
+                    top: 40%;
+                    cursor: pointer;
+                }
+                .prevIcon {
+                    right: 102%;
+                }
+                .nextIcon {
+                    left: 102%;
+                }
+                .items {
+                    width: 100%;
+                    overflow: hidden;
+                    .item {
+                        cursor: pointer;
+                        border: 0.5px solid #e2e2e2;
+                        box-sizing: border-box;
+                        border-radius: 4px;
+                        position: relative;
+                        margin: 10px 5px;
+                        padding: 10px;
+                        .hiverDetails {
+                            width: 100px;
+                            height: 120px;
+                            top: 0%;
+                            left: 0;
+                            display: none;
+                            position: absolute;
+                            background: rgba(0, 0, 0, 0.2);
+                            border-radius: 4px;
+                            justify-content: center;
+                            text-align: center;
+                            img {
+                                align-self: center;
+                                width: 30%;
+                                height: 25%;
+                            }
+                        }
+                        &:hover {
+                            .hiverDetails {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+            .checkAddText {
+                cursor: pointer;
+                .form-check-input:checked[type="checkbox"] {
+                    background-color: $purple !important;
+                    border: 1px solid $purple !important;
+                }
+                padding: 0 5px;
+                .addTextForGift {
+                    cursor: pointer;
+
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: $dark-blue;
+                }
+            }
+            .commentsForOrder {
+                margin-top: 20px;
+                .head {
+                    .title {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: $dark-blue;
+                    }
+                    .watchTheRes {
+                        cursor: pointer;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 10px;
+                        text-decoration-line: underline;
+                        color: $purple;
+                    }
+                }
+                .main {
+                    textarea {
+                        outline: none !important;
+                        width: 97%;
+                        height: 170px;
+                    }
+                    .item {
+                        cursor: pointer;
+                        position: relative;
+                        border: 0.5px solid #e2e2e2;
+                        box-sizing: border-box;
+                        border-radius: 4px;
+                        position: relative;
+                        margin: 4px 0px;
+                        padding: 10px;
+                        .notes {
+                            position: absolute;
+                            top: 45%;
+                            width: 40px;
+                            line-height: 10px;
+                            left: 30%;
+                            font-size: 6px;
+                            color: $dark-blue;
+                            text-align: center;
+                        }
+                        img {
+                            width: 130px;
+                            height: 170px;
+                        }
+                    }
+                }
+            }
+        }
+        .deeTheDetails {
+            position: absolute;
+            width: 421.95px;
+            height: 528.49px;
+            top: 30%;
+            left: 46%;
+            background-color: white;
+            border: 0.2px solid $dark-blue;
+            box-sizing: border-box;
+            border-radius: 4px;
+            .largeImg {
+                .notes {
+                    position: absolute;
+                    top: 50%;
+                    width: 171px;
+                    line-height: 25px;
+                    left: 30%;
+                    font-size: 27px;
+                    color: $dark-blue;
+                    text-align: center;
+                }
+            }
+            i {
+                cursor: pointer;
+            }
+        }
+        .actions {
+            .textLine {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                color: $dark-blue;
+                a {
+                    text-decoration: none;
+                    color: $purple;
+                }
+            }
+            .chooseSize {
+                .cardss {
+                    .seectCard {
+                        cursor: pointer;
+                        background: #ffffff;
+                        align-self: center;
+                        border: 1.5px solid $grey;
+                        box-sizing: border-box;
+                        border-radius: 3px;
+                        width: 170px;
+                        height: 107px;
+                        &.active {
+                            border: 3px solid $purple;
+                        }
+                        .price {
+                            font-style: normal;
+                            font-weight: 500;
+                            align-self: center;
+
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: $dark-blue;
+                        }
+                        .des {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 15px;
+                            text-align: center;
+                            color: $dark-blue;
+                        }
+                    }
+                }
+            }
+        }
+        .submitButtons {
+            .fastOder {
+                button {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 42px;
+                    color: #ffffff;
+                    border: none;
+                    width: 100%;
+                    margin: 35px 0 5px 0;
+                    background: $purple;
+                    border-radius: 5px;
+                    &:hover {
+                        color: $purple;
+                        font-weight: bold;
+                        cursor: pointer;
+                        background: #ffffff;
+                    }
+                }
+            }
+            .addToTheBasket {
+                button {
+                    width: 100%;
+                    font-style: normal;
+                    margin: 10px 0;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 42px;
+                    color: $dark-blue;
+                    background: #ffffff;
+                    border: 0.2px solid $dark-blue;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    &:hover {
+                        color: $purple;
+                        font-weight: bold;
+                        cursor: pointer;
+                        background: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+}

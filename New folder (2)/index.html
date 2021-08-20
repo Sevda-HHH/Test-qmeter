@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/carousel/css/lightslider.cssx" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/carousel/css/lightslider.css" />
+    <style>
+        ul {
+            list-style: none outside none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .demo .item {
+            margin-bottom: 60px;
+        }
+
+        .content-slider li {
+            background-color: #ed3020;
+            text-align: center;
+            color: #FFF;
+        }
+
+        .content-slider h3 {
+            margin: 0;
+            padding: 70px 0;
+        }
+
+        .demo {
+            width: 800px;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/carousel/js/lightslider.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#content-slider").lightSlider({
+                loop: true,
+                keyPress: true
+            });
+            $('#image-gallery').lightSlider({
+                gallery: true,
+                item: 1,
+                thumbItem: 9,
+                slideMargin: 0,
+                speed: 500,
+                auto: true,
+                loop: true,
+                onSliderLoad: function () {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }
+            });
+        });
+    </script>
+    <title>Flower Place </title>
+</head>
+
+<body>
+    <header>
+        <div id="topHeading">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 row justify-content-start headText">
+                        Бесплатная доставка для всех заказов от 2000 RUB
+                    </div>
+                    <div class="col-lg-6 row justify-content-end vizaContactInfoHead">
+                        <div class="headText col-lg-4">
+                            Oтслеживание вашего заказа
+                        </div>
+                        <div class="vizaIcon col-lg-2 d-flex justify-content-center">
+                            <img src="assets/img/vizaSmall.png" width="100%" height="100%" alt="Viza logo ">
+                        </div>
+                        <div class="webSiteLinkIcons d-flex justify-content-around  col-lg-2">
+                            <a href="facebook link" class="face">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="insta link" class="insta">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mainNav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 logo ">
+                        <img src="assets/img/navLogo.png" width="50%" height="100%" alt="Flowers Logo">
+                    </div>
+                    <div class="col-lg-5 navLinks row justify-content-start">
+                        <ul class=" d-flex justify-content-around m-auto">
+                            <li>
+                                <a href="link">Доставка и оплата </a>
+                            </li>
+                            <li>
+                                <a href="link">Как заказать </a>
+                            </li>
+                            <li>
+                                <a href="link">Отзывы </a>
+                            </li>
+                            <li>
+                                <a href="link">Магазины </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 navContact m-auto row justify-content-end">
+                        <div class="col-lg-5 row m-auto phoneNum">
+                            8 (000) 777-0016
+                        </div>
+                        <div class="col-lg-2 m-auto contactAppLinks row">
+                            <ul>
+                                <li>
+                                    <a href="wp">
+                                        <img src="assets/img/whatsapp (5) 1.png" alt="whatsapp icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="telegram">
+                                        <img src="assets/img/telegramIcon.png" alt="telegram icon">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 row iconsBastketLinke">
+                            <ul>
+                                <li>
+                                    <a href="wp">
+                                        <img src="assets/img/user (9) 1.png" alt="user  icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="telegram">
+                                        <img src="assets/img/heart (3) 1.png" alt="heart icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="telegram">
+                                        <img src="assets/img/shopping-basket (1) 1.png" alt="shopping basket icon">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="navSearchDropdown">
+            <div class="container">
+                <div class="row py-3 justify-content-between">
+                    <div class="col-lg-7 row justify-content-start  dropdownLinks">
+                        <ul class="d-flex m-auto justify-content-between">
+                            <li>
+                                <div class="dropdown">
+                                    <a class=" d-flex dropdown-toggle" data-bs-toggle="dropdown">
+                                        <div class="dropdownLink-title">
+                                            Цветы
+                                        </div>
+                                        <div style="padding: 2px 0 0 2px;"> <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="nkn">
+                                    <div class="dropdownLink-title">
+                                        Розы
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="nkn">
+                                    <div class="dropdownLink-title">
+                                        Пионы
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a class=" d-flex dropdown-toggle" data-bs-toggle="dropdown">
+                                        <div class="dropdownLink-title">
+                                            Сладости
+                                        </div>
+                                        <div style="padding: 2px 0 0 2px;"> <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a class=" d-flex dropdown-toggle" data-bs-toggle="dropdown">
+                                        <div class="dropdownLink-title">
+                                            Композиции
+                                        </div>
+                                        <div style="padding: 2px 0 0 2px;"> <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a class=" d-flex dropdown-toggle" data-bs-toggle="dropdown">
+                                        <div class="dropdownLink-title">
+                                            Кому
+                                        </div>
+                                        <div style="padding: 2px 0 0 2px;"> <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row justify-content-end col-lg-2">
+                        <div class="inptt  ">
+                            <input type="text">
+                            <div class="iconnn">
+                                <i class="fas fa-search search__icon" id="icon"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- menu details -->
+    <section id="mainDetails">
+        <div class="container">
+            <div class="row">
+                <div class="row justify-content-start col-lg-5 navPage">
+                    <ul class="d-flex list-unstyled my-3">
+                        <li class="p-0">
+                            Flower place
+                        </li>
+                        <li>
+                            / Кому
+                        </li>
+                        <li>
+                            / Маме
+                        </li>
+                        <li class="active">
+                            / Нежность
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-11  m-auto justify-content-around  row">
+                        <div class="mb-2">
+                            <div class="head">
+                                Нежность
+                            </div>
+                            <div class="des">
+                                Яркий смешанный букет из ярко-розовых и желтых роз с розовыми гвоздиками.
+                            </div>
+                        </div>
+                        <div class="col-lg-6 productSlider ">
+                            <div class="demo">
+                                <div class="item">
+                                    <div class="clearfix" style="max-width:474px;">
+                                        <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                                            <li data-thumb="./assets/img/Rectangle 104.png" height="100%" width="100%">
+                                                <img src="./assets/img/Rectangle 104.png" width="100%" height="100%" />
+                                            </li>
+                                            <li data-thumb="./assets/img/flowersSldie.png" height="100%" width="100%">
+                                                <img src="./assets/img/flowersSldie.png" width="100%" height="100%" />
+                                            </li>
+                                            <li data-thumb="./assets/img/flowerSlider2.png" height="100%" width="100%">
+                                                <img src="./assets/img/flowerSlider2.png" width="100%" height="100%" />
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 otkritki">
+                            <div class="heading  ">
+                                <div class="mb-2 d-flex justify-content-between" style="width:65%">
+                                    <div class="rate pr-2">
+                                        Оценка:
+                                    </div>
+                                    <div class="rateStarIcons pr-2 ">
+                                        <ul class="d-flex list-unstyled">
+                                            <li>
+                                                <i class="fas fa-star active"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star active "></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star active"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star active"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star active"></i>
+                                            </li>
+                                            <li>
+                                                <i class="far fa-star"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="discount pr-2">
+                                        15% скидка
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <span class="price  ">
+                                        2200 руб.
+                                    </span>
+                                    <span class=" discountPrice ">
+                                        2500 руб.
+                                    </span>
+                                </div>
+                                <div class="mb-2 d-flex justify-content-between" style="width: 80%;">
+                                    <div class="advertisement">
+                                        ОТКРЫТКА К БУКЕТУ - БЕСПЛАТНО!
+                                    </div>
+                                    <div class="selectOtkritka">
+                                        <a href=""> Выбрать открытку</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainContent">
+                                <div class="giftsCarousel d-flex justify-content-between">
+                                    <div class="prevIcon">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </div>
+                                    <div class="nextIcon">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </div>
+                                    <div class="items d-flex">
+                                        <div class="item">
+                                            <img height="100px" width="80px" src="./assets/img/giftCard3.png" alt="">
+                                            <div class="hiverDetails" onclick="selecImage('giftCard3.png')">
+                                                <img src="./assets/img/searchZoom.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img height="100px" width="80px" src="./assets/img/giftCard.png" alt="">
+                                            <div class="hiverDetails" onclick="selecImage('giftCard.png')">
+                                                <img src="./assets/img/searchZoom.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img height="100px" width="80px" src="./assets/img/giftCard2.png" alt="">
+                                            <div class="hiverDetails" onclick="selecImage('giftCard2.png')">
+                                                <img src="./assets/img/searchZoom.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img height="100px" width="80px" src="./assets/img/giftCard2.png" alt="">
+                                            <div class="hiverDetails" onclick="selecImage('giftCard2.png')">
+                                                <img src="./assets/img/searchZoom.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img height="100px" width="80px" src="./assets/img/giftCard3.png" alt="">
+                                            <div class="hiverDetails" onclick="selecImage('giftCard2.png')">
+                                                <img src="./assets/img/searchZoom.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img height="100px" width="80px" src="./assets/img/giftCard.png" alt="">
+                                            <div class="hiverDetails" onclick="selecImage('giftCard.png')">
+                                                <img src="./assets/img/searchZoom.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img height="100px" width="80px" src="./assets/img/giftCard.png" alt="">
+                                            <div class="hiverDetails" onclick="selecImage('giftCard.png')">
+                                                <img src="./assets/img/searchZoom.png" alt="">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="checkAddText ">
+                                    <label class="form-check-label addTextForGift" for="flexCheckDefault">
+                                        Добавить комментарий
+                                    </label>
+                                    <input class="form-check-input" type="checkbox" onchange="toggleShowCommmet()"
+                                        value="" id="flexCheckDefault">
+                                </div>
+                                <div class="commentsForOrder  d-none  p-3">
+                                    <div class="head row justify-content-between">
+                                        <div class="col-lg-6 title row">
+                                            Комментарий к заказу
+                                        </div>
+                                        <div class="col-lg-6 watchTheRes row justify-content-end"
+                                            onClick="handleOpenDialog()">
+                                            Посмотреть
+                                        </div>
+                                    </div>
+                                    <div class="main row justify-content-between">
+                                        <div class="col-lg-8 p-0 pt-1">
+                                            <div class="form-floating">
+                                                <textarea class="form-control" onkeyup="showWrittenComment(value)"
+                                                    placeholder="Leave a comment here" id="floatingTextarea2"
+                                                    style="height: 190px"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 item">
+                                            <img src="./assets/img/giftCard3.png" id="selectedImgSrc" alt="">
+                                            <div class="notes">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deeTheDetails d-none">
+                                <div class="row">
+                                    <div class=" justify-content-end pt-3 mr-2 d-flex" style="    padding: 0 29px;">
+                                        <i class="fas fa-times " onclick="handleCloseDialog()"></i>
+                                    </div>
+                                    <div class="largeImg">
+                                        <img src="./assets/img/Rectangle 180.png" class="w-100" alt="">
+                                        <div class="notes">
+                                            aaa
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="actions">
+                                <div class=" mt-3 mb-3 d-flex justify-content-between" style="width: 80%;">
+                                    <div class="textLine">Добавим любой подарок по вашему желанию!
+                                    </div>
+                                    <div class="textLine">
+                                        <a href=""> Добавить</a>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="textLine">
+                                        <a href=""> Изменить упаковку</a>
+                                    </div>
+                                </div>
+                                <div class="chooseSize">
+                                    <div class="textLine mb-2">
+                                        Выбери свой размер
+                                    </div>
+                                    <div class="container">
+                                        <div class="cardss row justify-content-between">
+                                            <div data-id="1" class="col-lg-4  row seectCard text-center "
+                                                onClick="chooseCard(1)">
+                                                <div class="price">
+                                                    2500 руб.
+                                                </div>
+                                                <div class="des">
+                                                    Букет
+                                                    маленького размера
+                                                </div>
+                                            </div>
+                                            <div data-id="2" onClick="chooseCard(2)"
+                                                class="col-lg-4 row seectCard text-center ">
+                                                <div class="price">
+                                                    3500 руб.
+                                                </div>
+                                                <div class="des">
+                                                    Букет
+                                                    маленького размера
+                                                </div>
+                                            </div>
+                                            <div data-id="3" onClick="chooseCard(3)"
+                                                class="col-lg-4 row seectCard text-center ">
+                                                <div class="price">
+                                                    4500 руб.
+                                                </div>
+                                                <div class="des">
+                                                    Букет
+                                                    маленького размера
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="submitButtons row">
+                                <div class="fastOder">
+
+                                    <button type="submit">
+                                        Быстрый заказ
+                                    </button>
+                                </div>
+                                <div class="addToTheBasket">
+
+                                    <button type="submit">
+                                        Добавить в корзину
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- tab menu description  -->
+    <section id="tabMenu">
+        <div class="container">
+            <div class="row">
+                <div class="tab">
+                    <button class="tablinks active" onclick="openTab(event, 'Описание')">Описание</button>
+                    <button class="tablinks" onclick="openTab(event, 'Отзыв')">Отзыв</button>
+                    <button class="tablinks" onclick="openTab(event, 'Совет')">Совет</button>
+                </div>
+
+                <div id="Описание" class=" row tabcontent">
+                    <div class="col-lg-6 p-0">
+                        <div class="title mt-5">
+                            Состав букета
+                        </div>
+                        <div class="sostav row justify-content-between">
+                            <div class="col-6">
+                                <ul class="list-unstyled  ">
+                                    <li>
+                                        Эвкалипт Цинерия
+                                    </li>
+                                    <li>Лента атлас
+                                    </li>
+                                    <li>
+                                        Писташ
+                                    </li>
+                                    <li>
+                                        Гербера
+                                    </li>
+                                    <li>
+                                        Крафт дизайнерский
+                                    </li>
+                                    <li>
+                                        Высота букета, см.: 45 см
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled  ">
+                                    <li>
+                                        <img src="./assets/img/Vector 18.png" alt="line horizontal"> <span>1 шт</span>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/img/Vector 18.png" alt="line horizontal"> <span>1 шт</span>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/img/Vector 18.png" alt="line horizontal"> <span>1 шт</span>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/img/Vector 18.png" alt="line horizontal"> <span>1 шт</span>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/img/Vector 18.png" alt="line horizontal"> <span>1 шт</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Отзыв" class="tabcontent p-0">
+                    <div class="nextBtn">
+                        <img src="./assets/img/nextBtn.png" alt="next button">
+                    </div>
+                    <div class="prevBtn">
+                        <img src="./assets/img/prevBtn.png" alt="previos button">
+                    </div>
+                    <div class="title mt-5 mb-4">
+                        Отзывы
+                    </div>
+                    <div class="feedBackSlide">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-3 ">
+                                <div class="feedBackCard row">
+                                    <div class="text">
+                                        “ Большое спасибо,
+                                        прекрасный букет. Доставили
+                                        во время. Хорошая обраная связь.
+                                        Приятные цены. “
+                                    </div>
+                                    <div class="author">
+                                        Александр Петрович
+                                    </div>
+                                    <div class="quote">
+                                        <img src="./assets/img/quote.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 ">
+                                <div class="feedBackCard row">
+                                    <div class="text">
+                                        “ Большое спасибо,
+                                        прекрасный букет. Доставили
+                                        во время. Хорошая обраная связь.
+                                        Приятные цены. “
+                                    </div>
+                                    <div class="author">
+                                        Александр Петрович
+                                    </div>
+                                    <div class="quote">
+                                        <img src="./assets/img/quote.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 ">
+                                <div class="feedBackCard row">
+                                    <div class="text">
+                                        “ Большое спасибо,
+                                        прекрасный букет. Доставили
+                                        во время. Хорошая обраная связь.
+                                        Приятные цены. “
+                                    </div>
+                                    <div class="author">
+                                        Александр Петрович
+                                    </div>
+                                    <div class="quote">
+                                        <img src="./assets/img/quote.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 ">
+                                <div class="feedBackCard row">
+                                    <div class="text">
+                                        “ Большое спасибо,
+                                        прекрасный букет. Доставили
+                                        во время. Хорошая обраная связь.
+                                        Приятные цены. “
+                                    </div>
+                                    <div class="author">
+                                        Александр Петрович
+                                    </div>
+                                    <div class="quote">
+                                        <img src="./assets/img/quote.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <div class="leaveAFeedback ">
+                            Оставить отзыв
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Совет" class=" row tabcontent">
+                    <div class="col-lg-6">
+                        <div class="title">
+                            Совет от профессионала
+                        </div>
+                        <div class="des">
+                            Ч тобы ваши цветы были свежими, они могут прибыть в виде бутонов.
+                            Это продлевает срок их хранения и прослужит как можно дольше!
+                            Подождите 2-3 дня, чтобы ваши новые бутоны раскрылись и полностью распустились.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- support section -->
+    <section id="support">
+        <div class="container p-0">
+            <div class="head">
+                Подарки для вас
+            </div>
+            <div class="giftCards justify-content-between d-flex">
+                <div class="nextBtn">
+                    <img src="./assets/img/nextBtn.png" alt="next button">
+                </div>
+                <div class="prevBtn">
+                    <img src="./assets/img/prevBtn.png" alt="previos button">
+                </div>
+                <div class="giftCard">
+                    <img src="./assets/img/mishka.png" alt="Teddy Bear">
+                    <div class="hoverDetails row">
+                        <div class="top">
+                            <div class="head">
+                                Мишка Teddy
+                            </div>
+                            <div class="des">
+                                порадует ваших
+                                близких
+                            </div>
+                        </div>
+                        <div class="priceButton">
+                            <div class="price">
+                                2330 руб
+                            </div>
+                            <div class="addButton">
+                                <button>
+                                    Добавить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="giftCard">
+                    <img src="./assets/img/TB1.png" alt="Teddy Bear">
+                    <div class="hoverDetails row">
+                        <div class="top">
+                            <div class="head">
+                                Мишка Teddy
+                            </div>
+                            <div class="des">
+                                порадует ваших
+                                близких
+                            </div>
+                        </div>
+                        <div class="priceButton">
+                            <div class="price">
+                                2330 руб
+                            </div>
+                            <div class="addButton">
+                                <button>
+                                    Добавить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="giftCard">
+                    <img src="./assets/img/TB2.png" alt="Teddy Bear">
+                    <div class="hoverDetails row">
+                        <div class="top">
+                            <div class="head">
+                                Мишка Teddy
+                            </div>
+                            <div class="des">
+                                порадует ваших
+                                близких
+                            </div>
+                        </div>
+                        <div class="priceButton">
+                            <div class="price">
+                                2330 руб
+                            </div>
+                            <div class="addButton">
+                                <button>
+                                    Добавить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="giftCard">
+                    <img src="./assets/img/TB3.png" alt="Teddy Bear">
+                    <div class="hoverDetails row">
+                        <div class="top">
+                            <div class="head">
+                                Мишка Teddy
+                            </div>
+                            <div class="des">
+                                порадует ваших
+                                близких
+                            </div>
+                        </div>
+                        <div class="priceButton">
+                            <div class="price">
+                                2330 руб
+                            </div>
+                            <div class="addButton">
+                                <button>
+                                    Добавить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="giftCard">
+                    <img src="./assets/img/TB2.png" alt="Teddy Bear">
+                    <div class="hoverDetails row">
+                        <div class="top">
+                            <div class="head">
+                                Мишка Teddy
+                            </div>
+                            <div class="des">
+                                порадует ваших
+                                близких
+                            </div>
+                        </div>
+                        <div class="priceButton">
+                            <div class="price">
+                                2330 руб
+                            </div>
+                            <div class="addButton">
+                                <button>
+                                    Добавить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="giftCard">
+                    <img src="./assets/img/mishka.png" alt="Teddy Bear">
+                    <div class="hoverDetails row">
+                        <div class="top">
+                            <div class="head">
+                                Мишка Teddy
+                            </div>
+                            <div class="des">
+                                порадует ваших
+                                близких
+                            </div>
+                        </div>
+                        <div class="priceButton">
+                            <div class="price">
+                                2330 руб
+                            </div>
+                            <div class="addButton">
+                                <button>
+                                    Добавить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <div class="showMore">
+                    Смотреть все
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- order details -->
+    <section id="orderDetails">
+        <div class="container">
+            <div class="orderAndPay">
+                <div class="head  pt-5">
+                    Доставка и оплата
+                </div>
+                <div class="row justify-content-between orderCards">
+                    <div class="col-lg-3 orderCard">
+                        <div>
+                            <img src="./assets/img/box 1.png" alt=" Box">
+                        </div>
+                        <div class="title">
+                            1. Оформление товара
+                        </div>
+                        <div class="des">
+                            Дождитесь, когда с вами свяжется
+                            наш консультант и подтвердит заказ.
+                            Обращаем внимание,
+                            что не все цветы бывают в наличии
+                        </div>
+                    </div>
+                    <div class="col-lg-3 orderCard">
+                        <div>
+                            <img src="./assets/img/shipped 1.png" alt=" Box">
+                        </div>
+                        <div class="title">
+                            2. Отравка заказа
+                        </div>
+                        <div class="des">
+                            Перед доставкой вам отправят
+                            фото заказа, который будет
+                            бережно доставлен до нужной точки
+                        </div>
+                    </div>
+                    <div class="col-lg-3 orderCard">
+                        <div>
+                            <img src="./assets/img/flower 1.png" alt=" Box">
+                        </div>
+                        <div class="title">3. Получение цветов
+                        </div>
+                        <div class="des">
+                            Курьер свяжется заранее
+                            для подтверждения адреса.
+                            Совершить оплату можно при получении.
+                            Все чеки будут выданы к заказу
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="orderChoices px-4">
+                <div class="row secondPart">
+                    <div class="head mt-4 mb-4">
+                        Варианты доставки
+                    </div>
+                    <div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i> Заказы принимаются за сутки до отправления
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Наличие цветов уточняйте у продавца
+                                    <br>
+                                    <span> в наличии — мы доставляем заказ в ближайшее время</span>
+                                    <br>
+                                    <span> нет в наличии — нам нужно время, чтобы их получить.</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i> Мы всегда можем предложить вам альтернативу
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="head  mt-4 mb-4">
+                                Курьер до двери
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i> Доставка по Москве осуществляется бесплатно в пределах
+                                    МКАД.
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Доставка за пределами МКАД обговаривается отдельно.
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i> Перед отправкой вам будет выслано фото на
+                                    согласование.
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i> Есть возможность бесконтактной доставки
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="head  mt-4 mb-4">
+                                Самовызов
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    г. Москва, Можайское шоссе, д. 41,к.1.
+                                    <br>
+                                    <span>г. Москва, м. Фили, Новозаводская улица, д. 2, к.1.</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i> Для выдачи заказа Вам нужно приехать в магазин
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i> назвать свою ФИО и номер заказа
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="paymentChoices">
+                <div class="head mt-4  ">
+                    Возможнмости оплаты
+                </div>
+                <div class="des">
+                    В нашем магазине вы можете расплатиться:
+                </div>
+                <div class="row justify-content-between choices">
+                    <div class="col-lg-2">
+                        <img src="./assets/img/paymentCard.png" alt="Google Pay ">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./assets/img/applePay.png" alt="Apple Pay">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./assets/img/onlinePayment.png" alt="Online Payment">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./assets/img/onlineCard.png" alt="Card Payment">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./assets/img/payCash.png" alt="Pay By Cash">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div id="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 row">
+                        <ul class="list-unstyled">
+                            <li>
+                                Главная
+                            </li>
+                            <li>
+                                О нас
+                            </li>
+                            <li>
+                                Блог
+                            </li>
+                            <li>
+                                Контакты
+                            </li>
+                        </ul>
+                        <div class="vizaLogo">
+                            <img src="./assets/img/Viza.png" class="w-50" alt="Viza ">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                Возврат средств и оплата
+                            </li>
+                            <li>
+                                Доставка и оплата
+                            </li>
+                            <li>
+                                Изменение заказа
+                            </li>
+                            <li>
+                                Скидки
+                            </li>
+                            <li>
+                                Каталог
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="head">
+                            Магазины
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="d-flex mt-2">
+                                <img src="./assets/img/location.png" width="7%" height="5%" alt="location icon">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Можайское шоссе, д.41, к.1
+                                    </li>
+                                    <li>
+                                        +7(999) 999-03-97
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="d-flex mt-2">
+                                <img src="./assets/img/location.png" width="7%" height="5%" alt="location icon">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        м.Фили. Новозаводская улица, д.2, к.1
+                                    </li>
+                                    <li>
+                                        +7(999) 999-03-97
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 row justify-content-end">
+                        <div>
+                            <div class="logo mb-2">
+                                <img src="./assets/img/logo-01 1.png" alt="">
+                            </div>
+                            <div class="c" class=" w-100">
+                                © 2020 Все права защищены<br>
+                                «Flowers place»
+                            </div>
+                        </div>
+                        <div class="contact row justify-content-end p-0">
+                            <div class="num col-8">
+                                8 (000) 777-0016
+                            </div>
+                            <div class="webLinks d-flex justify-content-end">
+                                <div><img src="./assets/img/WHATSAPP 001 1.png  " alt="whatsapp"></div>
+                                <div><img src="./assets/img/FACEBOOK 001 1.png" alt="facebook"></div>
+                                <div><img src="./assets/img/FACEBOOK 001 1.png" alt="facebook"></div>
+                                <div><img src="./assets/img/vk.png" alt="vkontakte"></div>
+                                <div><img src="./assets/img/vk.png" alt="vkontakte"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footerEnd">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        karamin__
+                    </div>
+                    <div>
+                        2021
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src=" https://kit.fontawesome.com/dab2f3f5f3.js " crossorigin=" anonymous "></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

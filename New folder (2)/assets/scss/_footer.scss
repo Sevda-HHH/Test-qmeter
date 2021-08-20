@@ -1,0 +1,74 @@
+footer {
+    font-family: "Roboto", sans-serif;
+
+    #main {
+        padding-bottom: 20px;
+        padding-top: 40px;
+        border-bottom: 0.1px solid $grey;
+        .logo {
+            text-align: right;
+        }
+        .head {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            color: $dark-blue;
+        }
+        .vizaLogo {
+            align-self: flex-end;
+            margin-top: 40px;
+            padding: 0;
+        }
+        .contact {
+            align-self: flex-end;
+            text-align: right;
+            .num {
+                font-family: "Exo", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                padding: 10px 0;
+                margin: 10px 16px;
+                border-bottom: 0.1px solid $grey;
+                line-height: 24px;
+                color: $dark-blue;
+            }
+            .webLinks {
+                text-align: right;
+                align-self: flex-end;
+                justify-content: flex-end;
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+        .c {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: right;
+            color: $dark-blue;
+        }
+        ul {
+            li {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                padding-bottom: 10px;
+                color: $dark-blue;
+            }
+        }
+    }
+    #footerEnd {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 9px 0;
+        color: $dark-blue;
+    }
+}
